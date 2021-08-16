@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@font-face{
+		font-family:dunggeun;
+		src:url('DungGeunMo.woff');
+	}
+	#main {
+		position:relative;
+		top:150px;
+		left:430px;
+		border: solid 1px gray;
+		text-align: center;
+		width: 700px;
+		height:700px;
+	}
+	
+	#screen {
+		background-image:url('../img/screen.gif');
+		background-repeat:no-repeat;
+		position: relative;
+		left:100px;
+		width:500px;
+		height:300px;
+	}
+	
+	#result {
+		background-image:url('../img/cup.gif');
+		background-repeat:no-repeat;
+		position: relative;
+		top:160px;
+		left:220px;
+		width:70px;
+		height:100px;
+	}
+	button {
+		position:relative;
+		top:20px;
+		width:100px;
+		height:50px;
+		margin: 20px;
+		font-family: 'dunggeun';
+	}
+	#rs{
+		position: relative;
+		left:0px;
+	}
+	#stt{
+		position: relative;
+		left:0px;
+	}
+	#stt.active{
+		display: none;
+	}
+	#rs.active{
+		display:none;
+	}
+	#btn.active{
+		display: none;
+	}
+	table {
+		display:inline;
+	}
+	td {
+		background-color:pink;
+		padding:20px;
+		font-family: 'dunggeun';
+	}
+	table.active{
+		display: none;
+	}
+	#base{
+		position: absolute;
+		left:165px;
+	}
+	#tea{
+		position:absolute;
+		right:165px;
+	}
+	#powder{
+		position:absolute;
+		left:305px;
+	}
+	#base.active{
+		display: none;
+	}
+	#powder.active{
+		display: none;
+	}
+	#tea.active{
+		display: none;
+	}
+	#comment{
+		width:498px;
+		height:50px;
+		border:dashed 1px gray;
+		position: relative;
+		left:100px;
+	}
+	#comen {
+		font-family: 'dunggeun';
+		color:black;
+	}

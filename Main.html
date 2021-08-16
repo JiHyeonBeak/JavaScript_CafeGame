@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome, DdubDDy's Cafe</title>
+<script src='js/script.js'></script>
+<link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+	<div id='main'>
+		<h2>DDUBDDY'S CAFE</h2>
+		<div id='screen'><div id='result'></div></div>
+		<div id='comment' class=''><p id='comen'>어서오세요!</p></div>
+		<div id='btn' class='active'>
+		<button id='baseBtn' class='active' onclick='ooB()'>베이스</button>
+		<button id='powderBtn' class='active' onclick='ooP()'>가루류</button>
+		<button id='teaBtn' class='active' onclick='ooT()'>차</button>
+		</div>
+		<button id='stt' class='' onClick='door()'>개점</button>
+		<button id='rs' class='active' onClick='reset()'>다시하기</button>
+		<table id='base' class='active'>
+			<tr><td onclick='wt()'>물</td></tr>
+			<tr><td onclick='mk()'>우유</td></tr>
+		</table>
+		<table id='powder' class='active'>
+			<tr><td onclick='sg()'>설탕</td></tr>
+			<tr><td onclick='st()'>소금</td></tr>
+			<tr><td onclick='cc()'>코코아</td></tr>
+			<tr><td onclick='vn()'>바닐라</td></tr>
+		</table>
+		<table id='tea' class='active'>
+			<tr><td onclick='cf()'>커피</td></tr>
+			<tr><td onclick='gr()'>녹차</td></tr>
+		</table>
+		
+	</div>
+</body>
+</html>
